@@ -1,0 +1,686 @@
+﻿/*
+	Theme Name: mstonge Portfolio
+	Theme URI: http://mstonge.com
+	Description: Thème portfolio
+	Version: 1.0
+	Author: Maxime St-Onge 
+*/
+/*-------------------------------------------------
+FONTS
+-------------------------------------------------*/
+
+@font-face {
+  font-family: 'Bonbon';
+  src: url('fonts/bonbon_light-webfont.eot'); /* IE9 Compat Modes */
+  src: url('fonts/bonbon_light-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/bonbon_light-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/bonbon_light-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/bonbon_light-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/bonbon_light-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Estandar-Bold';
+  src: url('fonts/Estandar-Bold-webfont.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Estandar-Bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Estandar-Bold-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/Estandar-Bold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/Estandar-Bold-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/Estandar-Bold-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Estandar-Light';
+  src: url('fonts/Estandar-Light-webfont.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Estandar-Light-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Estandar-Light-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/Estandar-Light-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/Estandar-Light-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/Estandar-Light-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Estandar-Regular';
+  src: url('fonts/Estandar-Regular-webfont.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Estandar-Regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Estandar-Regular-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/Estandar-Regular-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/Estandar-Regular-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/Estandar-Regular-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Estandar-SemiBold';
+  src: url('fonts/Estandar-SemiBold-webfont.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Estandar-SemiBold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Estandar-SemiBold-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/Estandar-SemiBold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/Estandar-SemiBold-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/Estandar-SemiBold-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Merlo-Light';
+  src: url('fonts/Merlo-Light.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Merlo-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Merlo-Light.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/Merlo-Light.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'Merlo-Medium';
+  src: url('fonts/Merlo-Medium.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Merlo-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Merlo-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/Merlo-Medium.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'Merlo-RoundSerifRegular';
+  src: url('fonts/Merlo-RoundSerifRegular.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Merlo-RoundSerifRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Merlo-RoundSerifRegular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/Merlo-RoundSerifRegular.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'Transat-Black';
+  src: url('fonts/transat_black-webfont.eot'); /* IE9 Compat Modes */
+  src: url('fonts/transat_black-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/transat_black-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/transat_black-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/transat_black-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/transat_black-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Transat-Medium';
+  src: url('fonts/transat_medium-webfont.eot'); /* IE9 Compat Modes */
+  src: url('fonts/transat_medium-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/transat_medium-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/transat_medium-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/transat_medium-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/transat_medium-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/*-------------------------------------------------
+DEFAULT STYLE
+-------------------------------------------------*/
+
+h1{
+	font-family: "Transat-Black", sans-serif;
+	color: #434343;
+	font-size: 1.88rem;
+
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+body{
+	margin:0;
+	padding:0;
+	width:100%;
+}
+
+body.overHide{
+	overflow: hidden!important;
+}
+
+div.wrapper{
+	max-width:1000px;
+	margin:0 auto;
+}
+
+div.wrapper h1{
+	padding-top:8em;
+	padding-bottom: 1em; 
+}
+
+ul{
+	margin:0;
+	padding:0;
+	list-style-type: none;
+}
+
+.bgRouge{
+	background-color:#8c1c1a;
+}
+
+.bgBlanc{
+	background-color:white;
+}
+
+.bgGris{
+	background-color:#eaeaea;
+}
+
+.gris{
+	color:#eee;
+}
+
+.content-window{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.content-window>div{
+	position: relative;
+	/*top: 50%;*/
+	/*-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);*/
+}
+
+/*-------------------------------------------------
+MENU
+-------------------------------------------------*/
+
+.headerContainer{
+	position: absolute;
+	top: 0;
+	display: block;
+	width: 100%;
+	margin-top: -100px;
+}
+
+header{
+	position: relative;
+    width: 100%;
+    height: 100px;
+    display: block;
+    opacity: 0.8;
+    z-index: 999;
+}
+
+header.fixed{
+	position: fixed;
+    top:0;
+    margin-top: 0;
+}
+
+header ul{
+	list-style-type: none;
+	text-align:center;
+}
+
+header li{
+	display: inline-block;
+	width:15%;
+	margin-top:40px;
+}
+
+header div{
+	float:left;
+	display:inline-block;
+	height:100%;
+	width:40%;
+}
+
+header div img{
+	float:right;
+	margin-right:100px;
+	margin-top:12px;
+}
+
+header nav{ 
+	display:inline-block;
+	height:100%;
+	width:40%;
+	float:left;
+	background-color:#eaeaea;
+	padding-right:15%;
+	padding-left:5%;
+}
+
+/*-------------------------------------------------
+SECTIONS
+-------------------------------------------------*/
+
+/*-------------------------------------------------
+SECTION --- HERO
+-------------------------------------------------*/
+
+section.hero .videoContainer{
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+section.hero video{
+	min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+@supports (object-fit: cover) {
+  section.hero video {
+    
+    width: 100%; height: 100%;
+    object-fit: cover;
+  }
+}
+
+.menuA{
+	text-decoration: none;
+	color:#434343;
+	font-weight:bold;
+	font-family:Arial,sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+#menuProposition a{
+	color:#ECCC83;
+}
+
+#menuProposition li{
+	background-color:#8c1c1a;
+	width:300px;
+	padding-top:40px;
+	padding-bottom:40px;
+	text-align:center;
+}
+
+footer{
+	color:white;
+	background-color:#434343;
+	width:100%;
+}
+
+div.featSec{
+	font-size: 0;
+}
+
+div.featDrinks{
+	margin: 0 2% 0 0;
+	vertical-align: top;
+	display:inline-block;
+	width: 32%;
+	text-align: justify;
+	font-size: initial;
+}
+
+div.featDrinks>img{
+	width: 100%;
+}
+
+div.featDrinks:last-of-type{
+	margin: 0;
+}
+
+.page-2{
+	background-color:blue;
+	width:100%;
+	height: 100%;
+}
+
+#bouton{
+	background-color:#8c1c1a;
+	font-weight: normal;
+	color:#ECCC83;
+	padding:10px;
+	text-align: center;
+	width:20%;
+	margin-left:250px;
+}
+
+#Breathalyzer{
+	background-color:white;
+}
+
+#Breathalyzer h2{
+	font-size:1rem;
+}
+
+#Breathalyzer h1{
+	color:#1c1c1c;
+	font-family:Arial,sans-serif;
+	font-size:1.5rem;
+}
+
+#Breathalyzer form{
+	width:50%;
+	display:inline-block;
+}
+
+#Breathalyzer article{
+	width:40%;
+	display:inline-block;
+}
+
+.page-1 .bgGris{
+	padding-top:25px;
+	padding-bottom:25px;
+}
+.page-1 .bgGris > section{
+	/*height:300px;*/
+	width:80%;
+}
+
+section.toBottom{
+	position: relative;
+	bottom: 0;
+}
+
+#menuProposition{
+	display:inline-block;
+	width:35%;
+	height:214px;
+	float:left;
+	margin-left:20px;
+}
+#Breathalyzer{
+	display:inline-block;
+	width:60%;
+	height:214px;
+	float:left;
+
+}
+
+#Breathalyzer .txtBox{
+	width:300px;
+	margin-top:10px;
+	background-color:#eaeaea;
+}
+
+#Breathalyzer h1{
+	margin-left:30px;
+}
+
+#Breathalyzer form{
+	margin-left:30px;
+}
+
+#slide-1{
+	background: url("img/fille.jpg") center center no-repeat;
+	background-size: cover;
+}
+
+#slide-1 h1 {
+	text-align: center;
+	color:rgb(255,255,255);
+}
+
+#slide-1 h2 {
+	text-align: center;
+	color:rgb(255,255,255);
+}
+
+.page-3{
+	height:100%;
+}
+
+.page-3 h1{
+	
+}
+
+.page-3 .bgBlanc{
+	width:60%;
+	float:left;
+	margin:auto;
+	display:inline-block;
+	height:1080px;
+}
+
+.page-3 .bgBlanc h1{
+	margin-left:40%;
+	padding-top:6em;
+	padding-bottom: 1em;
+}
+
+.page-3 .bgBlanc img{
+	text-align: center;
+	max-width:50%;
+	margin-left:40%;
+
+}
+
+.page-3 .bgGris{
+	width:40%;
+	float:left;
+	display:inline-block;
+	margin:auto;
+	height:1080px;
+}
+
+#reservation, #Eventbystyle{
+ 	width:50%;
+	background-color:#eee;
+	margin-left:100px;
+	margin-top:100px;
+	height:400px;}
+
+#reservation form,  #Eventbystyle form{
+	text-align: center;
+}
+
+#reservation form div,  #Eventbystyle form div{
+	margin-top:50px;
+	background-color:blue;
+	height:50px;
+}
+
+.wrapper h1{
+	font-sizesize:1.5rem;
+	font-family:Arial,sans-serif;
+	margin:0;
+	padding:0;
+}
+
+section.wrapper{
+	padding-top:100px;
+	background-color:white;
+	width:60%;
+	margin-left:20%;
+	margin-right:20%;
+	color:#1c1c1c;
+	font-family:Arial, sans-serif;
+}
+
+section.wrapper h2{
+	font-family:Arial,sans-serif;
+	width:100%;
+	font-size:1.2rem;
+	color:#1c1c1c;
+	float:left;
+	margin-top:30px;
+}
+
+.item{
+	font-size:1rem;
+}
+
+.item span{
+	font-size:0.8rem;
+	font-style:italic;
+}
+.price li{
+	font-size:1rem;
+	font-weight:bold;
+}
+.foodTxt div{
+	width:50%;
+}
+
+.price{
+	width:30%;
+	font-family:Arial;
+	font-weight:bold;
+	float:left;
+}
+
+.item{
+	width:60%;
+	float:left;
+}
+
+.sectionimg{
+	float:right;
+	width:50%;
+}
+
+ul.price{
+	text-align:right;
+}
+
+ul.price li{
+	margin-top:10px;
+}
+
+#Entree ul.price{
+	padding-top:10px;
+}
+
+#Dumplings ul.price{
+	padding-top:10px;
+}
+
+#Cold ul.price li{
+	margin-top:28px;
+}
+
+#Raw ul.price li{
+	margin-top:28px;
+}
+
+#Cooked ul.price li{
+	margin-top:28px;
+}
+
+#Entree ul.item{
+	border-left:solid 10px #AD5CAD;
+	padding-left:10px;
+	padding-top:10px;
+}
+
+#Entree ul.item li{
+	margin-top:10px;
+}
+
+#Cold ul.item{
+	border-left:solid 10px #246BB2;
+	padding-left:10px;
+	padding-top:10px;
+}
+
+#Cold ul.item li{
+	margin-top:10px;
+}
+
+#Raw ul.item{
+	border-left:solid 10px #6E0025;
+	padding-left:10px;
+	padding-top:10px;
+}
+
+#Raw ul.item li{
+	margin-top:10px;
+}
+
+#Dumplings ul.item{
+	border-left:solid 10px #007A7A;
+	padding-left:10px;
+	padding-top:10px;
+}
+
+#Dumplings ul.item li{
+	margin-top:10px;
+}
+
+#Cooked ul.item{
+	border-left:solid 10px #8F0000;
+	padding-left:10px;
+	padding-top:10px;
+}
+
+#Cooked ul.item li{
+	margin-top:10px;
+}
+
+#mtl{
+	text-align:center;
+	width:100%;
+	height:150px;
+	background-color:#8F0000;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+#mtl p{
+	color:white;
+	font-size:1.1rem;
+	font-family:Arial, sans-serif;
+	margin-bottom:40px;
+}
+
+#mtl a{
+	font-size:1rem;
+	padding:25px 65px;
+	background-color: #303030;
+	color:#ECCC83;
+}
+
+footer {
+	background-color: green;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+footer h1{
+	color:white;
+
+}
+footer a{
+	color:#ECCC83;
+}
+
+footer ul{
+	padding-top:6em;
+	padding-bottom: 1em;
+	display:inline-block;
+	list-style-type:none;
+	width:100%;
+	position:absolute;
+	bottom:10%;
+}
+footer ul li{
+	display:inline-block;
+	margin-left:75px;
+}
+
+.mid{
+
+	background-color: #303030;
+}
+
+.bottom{
+width:100%;
+height: 200px;
+background-color:black;
+position:absolute;
+bottom:0;
+}
+
+.bottom ul{
+text-align: center;
+}
+

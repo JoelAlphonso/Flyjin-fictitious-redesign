@@ -595,6 +595,7 @@ ul.price li{
 /*---COOKED---*/
 #Cooked{
 	padding-top: 8em;
+	padding-bottom: 30em;
 }
 
 #Cooked ul.price li{
@@ -615,43 +616,36 @@ ul.price li{
 PAGE MENU --- SECTION BOUTON RESERVATION
 -------------------------------------------------*/
 
-/*
 #mtl{
 	text-align:center;
 	width:100%;
 	height:150px;
 	padding-top:50px;
 	padding-bottom:50px;
+	background-color:#8c1c1a;
 }
 
 #mtl p{
 	color:white;
-	font-size:1.1rem;
-	font-family:Arial, sans-serif;
+	font-size:1rem;
+	font-family:Georgia;
 	margin-bottom:40px;
+	letter-spacing: 1px;
 }
 
 #mtl a{
 	font-size:1rem;
-	padding:25px 65px;
-	background-color: #303030;
+	padding:25px 80px;
+	background-color: #AD2421;
 	color:#ECCC83;
 }
-*/
 
 /*-------------------------------------------------
 SECTION --- FOOTER
 -------------------------------------------------*/
 
-.map{
-	background-color:lightblue;
-	width:100%;
-	height:15em;
-}
-
 footer {
 	color:white;
-	background-color: #555555;
 }
 
 footer .contactFooter{
@@ -685,6 +679,13 @@ footer ul{
 footer ul li{
 	display:inline-block;
 	margin-left: 30px;
+}
+
+.map{
+	background-color:lightblue;
+	width:100%;
+	height:15em;
+	padding-top: 5em; /* --> pour ne pas être sous le menu fixed d'index.html */
 }
 
 #formContact{
@@ -721,11 +722,14 @@ footer ul li{
 }
 
 #boutSend{
+	width:14.25em;
+	height:1em;
 	display: inline-block;
 	font-size: 1.25em;
 	letter-spacing: 2px;
 	padding-top: 1.25em;
 	padding-left: 35%;
+	background-color: #505050;
 }
 
 #formContact ::-webkit-input-placeholder {
@@ -734,7 +738,7 @@ footer ul li{
 
 .mid{
 	padding-top: 3em;
-	padding-bottom: 3em;
+	padding-bottom: 10em;
 	line-height: 0.5px;
 	background-color: #555555;
 	letter-spacing: 1px;
@@ -745,7 +749,7 @@ footer ul li{
 	bottom: 0;
 	position: absolute;
 	width:100%;
-	height: 300px;
+	height: 200px;
 	background-color:#333333;
 }
 

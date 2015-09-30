@@ -1,0 +1,843 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"script",
+				"script	<script>"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"scrip",
+				"script	<script>"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"bacgr",
+				"background"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"div",
+				"div	<div>"
+			],
+			[
+				"p",
+				"pae"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"set",
+				"setlocale〔function〕"
+			],
+			[
+				"te",
+				"text-indent"
+			],
+			[
+				"tet",
+				"text-indent"
+			],
+			[
+				"los",
+				"los_bullet"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"end",
+				"endforeach〔keyword〕"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"san",
+				"sans-serif〔value〕"
+			],
+			[
+				"tex",
+				"text-indent"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"des",
+				"description"
+			],
+			[
+				"easy",
+				"easyPayBase"
+			],
+			[
+				"phones",
+				"phonesLoaded"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"first",
+				"first-of-type〔pseudo-class〕"
+			],
+			[
+				"inline",
+				"inline-block〔value〕"
+			],
+			[
+				"re",
+				"resize〔function〕"
+			],
+			[
+				"scroll",
+				"scrollY〔variable〕"
+			],
+			[
+				"sc",
+				"screenY〔variable〕"
+			],
+			[
+				"la",
+				"lastest_offset"
+			],
+			[
+				"isF",
+				"isFixed"
+			],
+			[
+				"can",
+				"canShowMenu"
+			],
+			[
+				"slide",
+				"slideUp〔function〕"
+			],
+			[
+				"scrol",
+				"scrollTop〔function〕"
+			],
+			[
+				"sec",
+				"secVideo"
+			],
+			[
+				"scr",
+				"script	<script>"
+			],
+			[
+				"f",
+				"first-of-type〔pseudo-class〕"
+			],
+			[
+				"_S",
+				"$_SESSION〔variable〕"
+			],
+			[
+				"tr",
+				"trf	transform"
+			],
+			[
+				"fo",
+				"font-variant"
+			],
+			[
+				"html",
+				"html5	Simple HTML5 Boilerplate"
+			],
+			[
+				"meta",
+				"meta	<meta name=\"\" content=\"\">"
+			],
+			[
+				"sect",
+				"section"
+			],
+			[
+				"section",
+				"section	<section>"
+			],
+			[
+				"img",
+				"img	img"
+			],
+			[
+				"0",
+				"0fe70347f8"
+			],
+			[
+				"20",
+				"200"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"faq",
+				"faqBoth"
+			],
+			[
+				"box-s",
+				"box-sizing: 〔property〕"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"st",
+				"strong	Tag"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"jca",
+				"jcarouselPagination"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"inli",
+				"inline-table"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"to",
+				"toggleClass〔function〕"
+			],
+			[
+				"has",
+				"hasClass〔function〕"
+			],
+			[
+				"r",
+				"ready〔function〕"
+			],
+			[
+				"link",
+				"link"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"o",
+				"ol	Tag"
+			],
+			[
+				"ul",
+				"ul  (element)"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"hea",
+				"header	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sftp-config.json",
+			"settings":
+			{
+				"buffer_size": 1367,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/joelalphonso/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/mstonge-flyjin",
+			"settings":
+			{
+				"buffer_size": 916,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 207.0,
+		"selected_items":
+		[
+			[
+				"sftp",
+				"SFTP: Browse Server…"
+			],
+			[
+				"floo",
+				"Floobits - Join Recent Workspace"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Autoprefix CSS"
+			],
+			[
+				"s",
+				"SFTP: Show Panel"
+			],
+			[
+				"au",
+				"Autoprefix CSS"
+			],
+			[
+				"sft",
+				"Preferences: SFTP Settings"
+			],
+			[
+				"pack",
+				"Package Control: Enable Package"
+			],
+			[
+				"sublime",
+				"SublimeCodeIntel: Enable Live Autocompletion"
+			],
+			[
+				"code",
+				"SublimeCodeIntel: Disable Live Autocompletion"
+			],
+			[
+				"sub",
+				"SublimeCodeIntel: Disable Plugin"
+			],
+			[
+				"ftp",
+				"SFTP: Browse Server…"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"packa",
+				"Package Control: Disable Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"vi",
+				"View In Browser"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"floobi",
+				"Floobits - Join Workspace"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/joelalphonso/floobits/JoelAlphonso/flyjin/.flooignore",
+		"/Users/joelalphonso/floobits/JoelAlphonso/flyjin/style.css",
+		"/Users/joelalphonso/floobits/JoelAlphonso/flyjin/js/script.js",
+		"/Users/joelalphonso/floobits/JoelAlphonso/flyjin/index.html",
+		"/Users/joelalphonso/floobits/JoelAlphonso/flyjin/img/vid.MOV",
+		"/Users/joelalphonso/floobits/JoelAlphonso/flyjin/img/videoAccueil.mov",
+		"/Users/joelalphonso/Desktop/Flyjin 2/css.css",
+		"/Users/joelalphonso/Desktop/Flyjin 2/script.js",
+		"/Users/joelalphonso/Desktop/Flyjin 2/page3.html",
+		"/Users/joelalphonso/Desktop/Flyjin 2/page2.html",
+		"/Users/joelalphonso/Desktop/Flyjin 2/page1.html",
+		"/Users/joelalphonso/Desktop/Flyjin 2/index.html",
+		"/Users/joelalphonso/Code/app/lang/fr/bienvenue.php",
+		"/Users/joelalphonso/Code/app/lang/en/bienvenue.php",
+		"/Users/joelalphonso/Code/app/controllers/ProxiController.php",
+		"/Users/joelalphonso/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/joelalphonso/Code/app/routes.php",
+		"/Users/joelalphonso/Code/app/views/proxi/bienvenue.blade.php",
+		"/Users/joelalphonso/Code/app/views/proxi/bienvenu.php",
+		"/Users/joelalphonso/Code/app/views/proxi/about.blade.php",
+		"/Users/joelalphonso/Code/app/views/proxi/help.blade.php",
+		"/Users/joelalphonso/Code/app/views/proxi/shop.blade.php",
+		"/Users/joelalphonso/Code/app/lang/fr/site.php",
+		"/Users/joelalphonso/Code/app/lang/en/site.php",
+		"/Users/joelalphonso/Code/app/lang/en/geotab.php",
+		"/Users/joelalphonso/Code/app/lang/en/voip.php",
+		"/Users/joelalphonso/Code/app/lang/fr/voip.php",
+		"/Users/joelalphonso/Code/app/views/proxi/shop/handsets.blade.php",
+		"/Users/joelalphonso/Code/app/lang/fr/geotab.php",
+		"/Users/joelalphonso/Code/app/views/major/beton/knockout-base.blade.php",
+		"/Users/joelalphonso/Code/app/views/layouts/proxi.blade.php",
+		"/Users/joelalphonso/Code/public/assets/css/proxi.css",
+		"/Users/joelalphonso/Code/app/views/proxi/buisinessconnect.blade.php",
+		"/Users/joelalphonso/Code/app/views/proxi/geotab.blade.php",
+		"/Users/joelalphonso/.homestead/Homestead.yaml",
+		"/Users/joelalphonso/Library/Application Support/Sublime Text 2/Packages/User/SFTP.sublime-settings",
+		"/Users/joelalphonso/Library/Application Support/Sublime Text 2/Packages/SFTP/SFTP.sublime-settings",
+		"/Users/joelalphonso/Desktop/boing.audio/js/scripts.js",
+		"/Users/joelalphonso/Desktop/boing.audio/index.php",
+		"/Users/joelalphonso/Desktop/boing.audio/sftp-config.json",
+		"/Users/joelalphonso/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/boing",
+		"/var/folders/yj/9y_m30ys7r18ft_m2fjv5k9h0000gn/T/sublime-sftp-browse-1432839937/boing/ajax.php",
+		"/var/folders/yj/9y_m30ys7r18ft_m2fjv5k9h0000gn/T/sublime-sftp-browse-1432845051/boing/functions.php",
+		"/Users/joelalphonso/Desktop/test.css",
+		"/Users/joelalphonso/Library/Application Support/Sublime Text 2/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/Users/joelalphonso/Desktop/digital-construction/index.html",
+		"/Users/joelalphonso/Desktop/digital-construction/style.css",
+		"/Users/joelalphonso/Desktop/proxi-geotab/Qui sommes-nous - Proxi dÇtaillant TELUS.html",
+		"/var/folders/yj/9y_m30ys7r18ft_m2fjv5k9h0000gn/T/sublime-sftp-browse-1431709765/boing/functions.php",
+		"/var/folders/yj/9y_m30ys7r18ft_m2fjv5k9h0000gn/T/sublime-sftp-browse-1431711262/boing/index.php",
+		"/var/folders/yj/9y_m30ys7r18ft_m2fjv5k9h0000gn/T/sublime-sftp-browse-1431709979/boing/js/scripts.js",
+		"/Users/joelalphonso/floobits/Olon/Boing.audio/style.css",
+		"/Users/joelalphonso/Downloads/equipe01.xml",
+		"/var/folders/yj/9y_m30ys7r18ft_m2fjv5k9h0000gn/T/sublime-sftp-browse-1431355019/boing/functions.php",
+		"/var/folders/yj/9y_m30ys7r18ft_m2fjv5k9h0000gn/T/sublime-sftp-browse-1431355314/boing/js/scripts.js",
+		"/Users/joelalphonso/floobits/Olon/Boing.audio/boing.js",
+		"/var/folders/yj/9y_m30ys7r18ft_m2fjv5k9h0000gn/T/sublime-sftp-browse-1431355287/boing/js/boing.js",
+		"/var/folders/yj/9y_m30ys7r18ft_m2fjv5k9h0000gn/T/sublime-sftp-browse-1431354085/boing/images/camion-couleur.jpg",
+		"/Users/joelalphonso/Desktop/boing.audio/boing.js",
+		"/Users/joelalphonso/floobits/Olon/Boing.audio/index.html",
+		"/Users/joelalphonso/Desktop/exercice/style.css",
+		"/Users/joelalphonso/floobits/Olon/Boing.audio/images/blured-green-image.jpg",
+		"/Users/joelalphonso/floobits/Olon/Boing.audio/images/camion-couleur.jpg",
+		"/Users/joelalphonso/Desktop/blured-green-image.jpg",
+		"/Users/joelalphonso/floobits/Olon/Boing.audio/index.php",
+		"/Users/joelalphonso/Library/Application Support/Sublime Text 2/Packages/Super Calculator/Default (OSX).sublime-keymap",
+		"/Users/joelalphonso/Desktop/08 - Intégration flexible/Fichiers exercice/html/style.css",
+		"/Users/joelalphonso/Desktop/exercice/index.html",
+		"/Volumes/JOEL SSD/Matériel/Graphics/Icons/1430 Line Icons Bundle/Svg Sprite/icons.svg",
+		"/Users/joelalphonso/Desktop/08 - Intégration flexible/Fichiers exercice/html/index.html",
+		"/Users/joelalphonso/Desktop/line-icons-bundle [Converti] copie.svg",
+		"/Volumes/JOEL SSD/cégep/Session_4_hiver_2015/iel-2/09 - Modèle de boite flexible/1-Fichiers exercice/Démo 01 - Boites flexibles/flexbox.html",
+		"/Users/joelalphonso/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/joelalphonso/Library/Application Support/Sublime Text 2/Packages/View In Browser/View In Browser.sublime-settings",
+		"/Users/joelalphonso/Library/Application Support/Sublime Text 2/Packages/User/View In Browser.sublime-settings",
+		"/Users/joelalphonso/Desktop/dev.proxi.ca:help/dev-proxi.html",
+		"/Users/joelalphonso/Desktop/dev.proxi.ca:help/sftp-config.json",
+		"/Users/joelalphonso/Desktop/dev-proxi/Proxi.html",
+		"/Users/joelalphonso/Desktop/dev-proxi/Proxi_files/css",
+		"/var/folders/yj/9y_m30ys7r18ft_m2fjv5k9h0000gn/T/sublime-sftp-browse-1424451476/dectim/public_html/site/index.php",
+		"/Users/joelalphonso/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/dectim",
+		"/var/folders/yj/9y_m30ys7r18ft_m2fjv5k9h0000gn/T/sublime-sftp-browse-1424441279/dectim/public_html/site/index.php",
+		"/var/folders/yj/9y_m30ys7r18ft_m2fjv5k9h0000gn/T/sublime-sftp-browse-1424376959/joeldesign/apc2/style.css",
+		"/Users/joelalphonso/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/joeldesign",
+		"/Users/joelalphonso/Documents/Clients/Proxi:Attrix/landingPage/landingPageProxi.html",
+		"/Users/joelalphonso/Documents/Clients/Proxi:Attrix/landingPage/index.js",
+		"/Users/joelalphonso/Documents/Clients/Proxi:Attrix/landingPage/style.css",
+		"/Users/joelalphonso/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/0BD5AB9E-B4A4-4CFE-A7E9-F138C0C7DDC5/Logo LV Construction PDF.pdf",
+		"/Users/joelalphonso/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/7CB34425-3A93-44FD-AFBD-5B427AB21293/vivrepourrire copy.jpg",
+		"/Users/joelalphonso/Desktop/test2/index.html",
+		"/Users/joelalphonso/Desktop/test1/index.html",
+		"/Users/joelalphonso/Desktop/test3/index.html",
+		"/Users/joelalphonso/Desktop/pageAccueil",
+		"/Users/joelalphonso/Desktop/apc2/index.html",
+		"/Users/joelalphonso/Desktop/APC Home page/APC   amateur pro cycling.html",
+		"/Users/joelalphonso/Desktop/APC   amateur pro cycling.html",
+		"/Users/joelalphonso/Desktop/Invitation/js/prodData.js",
+		"/Users/joelalphonso/Desktop/Invitation/js/index.js",
+		"/Users/joelalphonso/Desktop/Invitation/css/style.css",
+		"/Users/joelalphonso/Desktop/Invitation/index.html",
+		"/Users/joelalphonso/Desktop/Invitation/js/listeproduits.js",
+		"/Users/joelalphonso/Desktop/apc - home page/APC   amateur pro cycling.html",
+		"/Users/joelalphonso/Desktop/alphonso_joel/index.html",
+		"/Users/joelalphonso/Desktop/Lab_11/css/form.css",
+		"/Users/joelalphonso/Desktop/Lab_11/inscription.html",
+		"/Users/joelalphonso/Desktop/Lab_11/index.html",
+		"/Users/joelalphonso/Desktop/rotate 2.php",
+		"/Users/joelalphonso/Desktop/Lab_10/index.html",
+		"/Users/joelalphonso/Desktop/Lab_10/css/styles.css",
+		"/Users/joelalphonso/Desktop/Lab_9/index.html",
+		"/Users/joelalphonso/Desktop/Lab_9/css/styles.css",
+		"/Users/joelalphonso/Desktop/Clean Listener.jsx",
+		"/Users/joelalphonso/Desktop/Boxcube/index.html",
+		"/Volumes/ALPHONSO/cégep/Session_3_automne_2014/Intégration en ligne - 1012/Boxcube/index.html",
+		"/Users/joelalphonso/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Volumes/ALPHONSO/Boxcube/index.html",
+		"/Volumes/ALPHONSO/Boxcube/css/main.css",
+		"/Users/joelalphonso/Desktop/Boxcube/css/main.css",
+		"/Volumes/ALPHONSO/cégep/Session_3_automne_2014/Intégration en ligne - 1012/Lab4/index.html",
+		"/Users/joelalphonso/Desktop/Boxcube/polices/stylesheet.css",
+		"/Users/joelalphonso/Desktop/test.html",
+		"/Users/joelalphonso/Desktop/apc/APC   amateur pro cycling_files/style.css",
+		"/Users/joelalphonso/Desktop/apc/APC   amateur pro cycling_files/css(2)",
+		"/Users/joelalphonso/Desktop/apc/APC   amateur pro cycling_files/css(1)",
+		"/Users/joelalphonso/Desktop/apc/APC   amateur pro cycling_files/css",
+		"/Users/joelalphonso/Library/Application Support/Sublime Text 2/Packages/View in Browser/Default (OSX).sublime-keymap",
+		"/Users/joelalphonso/Downloads/proxi.ca/index.html",
+		"/Users/joelalphonso/Downloads/attrix contact/css/main.css"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"id",
+			"<li></li>",
+			">\n",
+			"<img src=\"\" alt=\"\">",
+			"=\"\">\n",
+			"white",
+			"coml",
+			"lang",
+			"fr",
+			"en",
+			"english",
+			"Magasiner",
+			"btn-large",
+			"4",
+			"h3",
+			"mois",
+			"Go",
+			"mo",
+			"Mo",
+			"up",
+			"jusqu’à",
+			"href",
+			"$text",
+			"<!-- /header -->",
+			"voicemail",
+			"passport",
+			"transfer",
+			"transfert",
+			"bill",
+			"rotation",
+			"menu",
+			"title",
+			"slide1",
+			"'slide1-title' => 'Professionnalisez votre image',\n	'slide1-block1' => '<span>Améliorez</span> votre image avec les appels à un seul numéro',\n	'slide1-block2' => '<span>Proposez</span> un accès simplifié à plus de clients grâce au numéro sans frais',\n	'slide1-block3' => '<span>Attribuez</span> à vos employés un numéro1 unique qui fonctionne sur tous les appareils',\n	'slide1-block4' => '<span>Acheminez</span> efficacement les appels sur les téléphones de bureau, les téléphones intelligents, les tablettes et même les ordinateurs',\n	'slide1-block5' => '<span>Répondez</span> à tous vos appels, peu importe où vous vous trouvez',\n	'slide1-block6' => '<span>Activez</span> la fonction automatisée de renvoi d’appel entrant à divers numéros',",
+			"slide1",
+			"Améliorez",
+			"margin",
+			"span4",
+			"span3",
+			"span",
+			"></",
+			"767",
+			"open-side-menu",
+			"VoIP",
+			"geotab",
+			"max-width: 979px",
+			"software",
+			"Height",
+			"height",
+			"device",
+			"'' => '',",
+			"'',\n",
+			"sticky-nav",
+			"100",
+			"header",
+			"$",
+			"jQuery(window).scrollTop()",
+			"nav",
+			"href=\"",
+			"Boutique de Blainville ",
+			"relative",
+			"div",
+			"span8",
+			"span4",
+			";\n",
+			"15px",
+			"header",
+			"line-hei",
+			"font-size",
+			"\">\n",
+			"BORDER-BOTTOM",
+			"rgb",
+			"#66cc00;"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"rgb(20, 108, 205)"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sftp-config.json",
+					"settings":
+					{
+						"buffer_size": 1367,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								186,
+								186
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/joelalphonso/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/mstonge-flyjin",
+					"settings":
+					{
+						"buffer_size": 916,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								330,
+								340
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"sftp_new_server": null,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/joelalphonso/Library/Application Support/Sublime Text 2/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 208.0,
+	"status_bar_visible": true
+}

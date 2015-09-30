@@ -1,0 +1,773 @@
+/*-------------------------------------------------
+FONTS
+-------------------------------------------------*/
+
+@font-face {
+  font-family: 'Bonbon';
+  src: url('fonts/bonbon_light-webfont.eot'); /* IE9 Compat Modes */
+  src: url('fonts/bonbon_light-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/bonbon_light-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/bonbon_light-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/bonbon_light-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/bonbon_light-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Estandar-Bold';
+  src: url('fonts/Estandar-Bold-webfont.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Estandar-Bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Estandar-Bold-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/Estandar-Bold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/Estandar-Bold-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/Estandar-Bold-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Estandar-Light';
+  src: url('fonts/Estandar-Light-webfont.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Estandar-Light-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Estandar-Light-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/Estandar-Light-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/Estandar-Light-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/Estandar-Light-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Estandar-Regular';
+  src: url('fonts/Estandar-Regular-webfont.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Estandar-Regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Estandar-Regular-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/Estandar-Regular-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/Estandar-Regular-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/Estandar-Regular-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Estandar-SemiBold';
+  src: url('fonts/Estandar-SemiBold-webfont.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Estandar-SemiBold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Estandar-SemiBold-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/Estandar-SemiBold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/Estandar-SemiBold-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/Estandar-SemiBold-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Merlo-Light';
+  src: url('fonts/Merlo-Light.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Merlo-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Merlo-Light.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/Merlo-Light.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'Merlo-Medium';
+  src: url('fonts/Merlo-Medium.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Merlo-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Merlo-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/Merlo-Medium.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'Merlo-RoundSerifRegular';
+  src: url('fonts/Merlo-RoundSerifRegular.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Merlo-RoundSerifRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Merlo-RoundSerifRegular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/Merlo-RoundSerifRegular.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'Transat-Black';
+  src: url('fonts/transat_black-webfont.eot'); /* IE9 Compat Modes */
+  src: url('fonts/transat_black-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/transat_black-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/transat_black-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/transat_black-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/transat_black-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Transat-Medium';
+  src: url('fonts/transat_medium-webfont.eot'); /* IE9 Compat Modes */
+  src: url('fonts/transat_medium-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/transat_medium-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/transat_medium-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/transat_medium-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/transat_medium-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/*-------------------------------------------------
+DEFAULT STYLE
+-------------------------------------------------*/
+
+h1{
+	font-family: "Transat-Black", sans-serif;
+	color: #434343;
+	font-size: 1.88rem;
+
+}
+
+h2{
+	color:#434343;
+}
+
+h3{
+	color:#434343;
+}
+
+body{
+	margin:0;
+	padding:0;
+	width:100%;
+}
+
+body.overHide{
+	overflow: hidden!important;
+}
+
+div.wrapper{
+	max-width:1000px;
+	margin:0 auto;
+}
+
+div.wrapper h1{
+	padding-top:5em;
+	padding-bottom: 1em; 
+}
+
+ul{
+	margin:0;
+	padding:0;
+	list-style-type: none;
+}
+
+.bgRouge{
+	background-color:#8c1c1a;
+}
+
+.bgBlanc{
+	background-color:white;
+}
+
+.bgGris{
+	background-color:#eaeaea;
+}
+
+.gris{
+	color:#eee;
+}
+
+.content-window{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.content-window>div{
+	position: relative;
+	/*top: 50%;*/
+	/*-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);*/
+}
+
+/*-------------------------------------------------
+MENU
+-------------------------------------------------*/
+
+.headerContainer{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	display: block;
+	margin-top: -100px;
+}
+
+header{
+	position: relative;
+    width: 100%;
+    height: 6em;
+    display: block;
+    opacity: 0.9;
+    z-index: 999;
+}
+
+header.fixed{
+	position: fixed;
+    top:0;
+    margin-top: 0;
+}
+
+header ul{
+	list-style-type: none;
+	text-align:center;
+}
+
+header li{
+	display: inline-block;
+	width:18%;
+	margin-top:43px;
+}
+
+header div{
+	float:left;
+	display:inline-block;
+	height:100%;
+	width:30%;
+}
+
+header div img{
+	float:right;
+	margin-right:100px;
+	margin-top:12px;
+}
+
+header nav{ 
+	display:inline-block;
+	height:100%;
+	width:50%;
+	float:right;
+	background-color:#eaeaea;
+	padding-right:16%;
+	padding-left:4%;
+}
+
+/*-------------------------------------------------
+SECTIONS
+-------------------------------------------------*/
+
+/*-------------------------------------------------
+SECTION --- HERO
+-------------------------------------------------*/
+
+section.hero .videoContainer{
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+section.hero video{
+	min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+@supports (object-fit: cover) {
+  section.hero video {
+    
+    width: 100%; height: 100%;
+    object-fit: cover;
+  }
+}
+
+.menuA{
+	color:#434343;
+	font-weight:lighter;
+	font-family:Georgia;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+a{
+	text-decoration: none;
+}
+
+#menuProposition a{
+	color:#ECCC83;
+}
+
+#menuProposition li{
+	background-color:#8c1c1a;
+	width:300px;
+	padding-top:40px;
+	padding-bottom:40px;
+	text-align:center;
+}
+
+
+/*-------------------------------------------------
+SECTION --- FEATURED DRINKS
+-------------------------------------------------*/
+
+div.featSec{
+	color:#434343;
+	font-family: Georgia;
+	font-size: 0;
+	letter-spacing: 0.5px;
+}
+
+div.featDrinks{
+	margin: 0 2% 0 0;
+	vertical-align: top;
+	display:inline-block;
+	width: 32%;
+	text-align: center justify;
+	font-size: initial;
+}
+
+div.featDrinks h3{
+	margin: 10% 0 0 0;
+	letter-spacing: 2px;
+	font-weight: normal;
+	text-transform: capitalize;
+	text-align: center;
+}
+
+div.featDrinks>img{
+	width: 100%;
+}
+
+div.featDrinks:last-of-type{
+	margin: 0;
+}
+
+/*-------------------------------------------------
+SECTION --- BREATHALIZER
+-------------------------------------------------*/
+
+.page-2{
+	background-color:blue;
+	width:100%;
+	height: 100%;
+}
+
+#bouton{
+	background-color:#8c1c1a;
+	font-weight: normal;
+	color:#ECCC83;
+	padding:10px;
+	text-align: center;
+	width:20%;
+	margin-left:250px;
+}
+
+#Breathalyzer{
+	background-color:white;
+	width:100%;
+}
+
+#Breathalyzer h1{
+	padding-left: 25%;
+	font-size:1rem;
+}
+
+#Breathalyzer h2{
+	font-size:1rem;
+}
+
+#Breathalyzer h1{
+	color:#1c1c1c;
+	font-family:Arial,sans-serif;
+	font-size:1.5rem;
+	margin-top: 1em;
+}
+
+#Breathalyzer form{
+	width:50%;
+	display:inline-block;
+}
+
+#Breathalyzer article{
+	width:40%;
+	display:inline-block;
+}
+
+.page-1 .bgGris{
+	padding-top:25px;
+	padding-bottom:25px;
+}
+.page-1 .bgGris > section{
+	height:300px;
+	width:80%;
+}
+
+section.toBottom{
+	position: relative;
+	bottom: 0;
+}
+
+#menuProposition{
+	display:inline-block;
+	width:35%;
+	height:214px;
+	float:left;
+	margin-left:20px;
+}
+#Breathalyzer{
+	display:inline-block;
+	width:60%;
+	height:214px;
+	float:left;
+}
+
+#Breathalyzer .txtBox{
+	width:300px;
+	margin-top:10px;
+	background-color:#eaeaea;
+}
+
+#Breathalyzer h1{
+	text-transform: capitalize;
+	font-family: "Transat-Black", sans-serif;
+	color: #434343;
+	font-size: 1.88rem;
+	padding-left: 20%;
+}
+
+#Breathalyzer form{
+	margin-left:30px;
+}
+
+#menuProposition{
+
+	float:right;
+
+
+}
+
+#slide-1{
+	background: url("img/fille.jpg") center center no-repeat;
+	background-size: cover;
+}
+
+#slide-1 h1 {
+	text-align: center;
+	color:rgba(255,255,255,0.9);
+	font-weight:lighter;
+	font-family:Georgia;
+	letter-spacing: 8px;
+	text-transform: lowercase;
+	font-size: 2.25em;
+}
+
+#slide-1 h2 {
+	text-align: center;
+	color:rgba(255,255,255,0.9);
+	font-weight:lighter;
+	font-family:Georgia;
+	letter-spacing: 5px;
+	text-transform: lowercase;
+	font-size: 1em;
+}
+
+/*-------------------------------------------------
+SECTION --- EVENTS
+-------------------------------------------------*/
+
+
+.page-3{
+	height:100%;
+}
+
+.page-3 .bgBlanc{
+	width:60%;
+	float:left;
+	display:inline-block;
+}
+
+.page-3 .bgBlanc h1{
+	margin-left:40%;
+	padding-top:3em;
+}
+
+.page-3 .bgBlanc img{
+	text-align: center;
+	max-width:40%;
+	margin-left:40%;
+
+}
+
+.page-3 .bgGris{
+	width:40%;
+	float:left;
+	display:inline-block;
+	height:1080px;
+}
+
+.page-3 .bgGris h1{
+	padding-top: 1em;
+}
+
+#reservation, #Eventbystyle{
+	text-align: center;
+ 	width:50%;
+	background-color:#eee;
+	margin-left:100px;
+	margin-top:50px;
+	height:400px;
+}
+
+#reservation form div,  #Eventbystyle form div{
+	text-align: center;
+	margin-top:50px;
+	background-color:#eee;
+	height:50px;
+}
+
+/*-------------------------------------------------
+PAGE MENU
+-------------------------------------------------*/
+
+.item{
+	font-size:1rem;
+}
+
+.item span{
+	font-size:0.8rem;
+	font-style:italic;
+}
+.price li{
+	font-size:1rem;
+	font-weight:bold;
+}
+.foodTxt div{
+	width:50%;
+}
+
+.price{
+	width:30%;
+	font-family:Arial;
+	font-weight:bold;
+	float:left;
+}
+
+.item{
+	width:60%;
+	float:left;
+}
+
+.sectionimg{
+	float:right;
+	width:50%;
+}
+
+ul.price{
+	text-align:right;
+}
+
+ul.price li{
+	margin-top:10px;
+}
+
+#Entree ul.price{
+	padding-top:10px;
+}
+
+#Dumplings ul.price{
+	padding-top:10px;
+}
+
+#Cold ul.price li{
+	margin-top:28px;
+}
+
+#Raw ul.price li{
+	margin-top:28px;
+}
+
+#Cooked ul.price li{
+	margin-top:28px;
+}
+
+#Entree ul.item{
+	border-left:solid 10px #AD5CAD;
+	padding-left:10px;
+	padding-top:10px;
+}
+
+#Entree ul.item li{
+	margin-top:10px;
+}
+
+#Cold ul.item{
+	border-left:solid 10px #246BB2;
+	padding-left:10px;
+	padding-top:10px;
+}
+
+#Cold ul.item li{
+	margin-top:10px;
+}
+
+#Raw ul.item{
+	border-left:solid 10px #6E0025;
+	padding-left:10px;
+	padding-top:10px;
+}
+
+#Raw ul.item li{
+	margin-top:10px;
+}
+
+#Dumplings ul.item{
+	border-left:solid 10px #007A7A;
+	padding-left:10px;
+	padding-top:10px;
+}
+
+#Dumplings ul.item li{
+	margin-top:10px;
+}
+
+#Cooked ul.item{
+	border-left:solid 10px #8F0000;
+	padding-left:10px;
+	padding-top:10px;
+}
+
+#Cooked ul.item li{
+	margin-top:10px;
+}
+
+#mtl{
+	text-align:center;
+	width:100%;
+	height:150px;
+	background-color:#8F0000;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+#mtl p{
+	color:white;
+	font-size:1.1rem;
+	font-family:Arial, sans-serif;
+	margin-bottom:40px;
+}
+
+#mtl a{
+	font-size:1rem;
+	padding:25px 65px;
+	background-color: #303030;
+	color:#ECCC83;
+}
+
+/*-------------------------------------------------
+SECTION --- FOOTER
+-------------------------------------------------*/
+
+.map{
+	background-color:lightblue;
+	width:100%;
+	height:15em;
+}
+
+footer {
+	color:white;
+	background-color: #555555;
+}
+
+footer .contactFooter{
+	display: inline-block;
+	padding-left: 20%;
+	position: relative;
+}
+
+footer .contactFooter p{
+	margin-top: 20px;
+}
+
+footer > div >div >div{
+	height: 100%;
+}
+
+footer h1{
+	color:white;
+	padding-bottom: 1.5em;
+}
+
+footer a{
+	color:#ECCC83;
+}
+
+footer ul{
+	display:inline-block;
+	list-style-type:none;
+	width:100%;
+}
+footer ul li{
+	display:inline-block;
+	margin-left: 30px;
+}
+
+#formContact{
+	float:right;
+	padding-right: 15%;
+}
+
+#formContact input{
+
+	padding-bottom: 1.5em;
+	margin-bottom: 1em;
+	background-color: #505050;
+	border:none;
+}
+
+#nom{
+	height:2em;
+	width:19.75em;
+}
+
+#courriel{
+	height:2em;
+	width:19.75em;
+}
+
+#sujet{
+	height:2em;
+	width:40em;
+}
+
+#messageBox{
+	height:8em;
+	width:40em;
+	padding-bottom: 2em;
+}
+
+#boutSend{
+
+	display: inline-block;
+	font-size: 1.25em;
+	letter-spacing: 2px;
+	padding-top: 1.25em;
+	padding-left: 35%;
+}
+
+#formContact ::-webkit-input-placeholder {
+	padding: 10px 10px 10px 30px;
+}
+
+.mid{
+	padding-top: 3em;
+	padding-bottom: 3em;
+	line-height: 0.5px;
+	background-color: #555555;
+	letter-spacing: 1px;
+	font-size: 1em;
+}
+
+.bottom{
+	bottom: 0;
+	position: absolute;
+	width:100%;
+	height: 300px;
+	background-color:#333333;
+}
+
+.bottom ul{
+	padding-top: 2em;
+	text-align: center;
+
+}
+
+#copyrights {
+	padding-top: 3em;
+	text-align: center;
+	font-weight:lighter;
+	font-family:Georgia;
+	letter-spacing: 3.5px;
+	text-transform: lowercase;
+	font-size: 0.8em;
+}
+

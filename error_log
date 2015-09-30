@@ -1,6 +1,0 @@
-[23-Sep-2015 14:38:15 UTC] PHP Warning:  require(/home/e1338008/public_html/production1/wp-content/themes/twentythirteen/inc/custom-header.php): failed to open stream: No such file or directory in /home/e1338008/public_html/production1/wp-content/themes/twentythirteen/functions.php on line 37
-[23-Sep-2015 14:38:15 UTC] PHP Fatal error:  require(): Failed opening required '/home/e1338008/public_html/production1/wp-content/themes/twentythirteen/inc/custom-header.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/e1338008/public_html/production1/wp-content/themes/twentythirteen/functions.php on line 37
-[25-Sep-2015 13:45:13 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/e1338008/public_html/production1/wp-content/themes/flyjin/header.php on line 30
-[25-Sep-2015 13:45:30 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/e1338008/public_html/production1/wp-content/themes/flyjin/header.php on line 30
-[25-Sep-2015 13:49:35 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/e1338008/public_html/production1/wp-content/themes/flyjin/header.php on line 30
-[25-Sep-2015 13:49:40 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/e1338008/public_html/production1/wp-content/themes/flyjin/header.php on line 30

@@ -91,9 +91,11 @@ DEFAULT STYLE
 -------------------------------------------------*/
 
 h1{
-	font-family: "Transat-Black", sans-serif;
+	font-family: Georgia;
+	font-weight: lighter;
+	letter-spacing: 3px;
 	color: #434343;
-	font-size: 1.88rem;
+	font-size: 2rem;
 }
 
 h2{
@@ -350,10 +352,6 @@ SECTION --- BREATH TEST
 
 #BreathTest h1{
 	margin-top: 1em;
-	text-transform: capitalize;
-	font-family: "Transat-Black", sans-serif;
-	color: #434343;
-	font-size: 1.88rem;
 	padding-left: 20%;
 }
 
@@ -497,46 +495,32 @@ PAGE MENU --- SECTION FOOD MENU
 	padding-left: 5%
 }
 
-.foodTxt div{
-	width:50%;
+.foodTxt{
+	float:left;
+	width:32.5%;
 }
 
 .item{
 	font-size:1rem;
-	width:60%;
 	float:left;
 }
 
 .item span{
 	font-size:0.8rem;
 	font-style:italic;
+	width:150px;
 }
 
 .price{
-	width:30%;
-	font-family:Arial;
-	font-weight:bold;
-	float:left;
-}
-
-.price li{
-	font-size:1rem;
-	font-weight:bold;
-}
-
-ul.price{
-	text-align:right;
-}
-
-ul.price li{
-	margin-top:10px;
+	width: 10%;
+	padding-left: 3em;
+	font-family:Georgia;
+	font-size: 1em;
+	float:right;
+	text-align: right;
 }
 
 /*---ENTREE---*/
-
-#Entree ul.price{
-	padding-top:10px;
-}
 
 #Entree ul.item{
 	border-left:solid 10px #AD5CAD;
@@ -548,28 +532,33 @@ ul.price li{
 	margin-top:10px;
 }
 
-/*---COLD---*/
-#Cold{
-	padding-top: 8em;
+#Entree ul.price li{
+	padding-top: 10px;
+	padding-bottom: 28px;
 }
 
-#Cold ul.price li{
-	margin-top:28px;
+/*---COLD---*/
+#Cold{
+	padding-top: 11em;
 }
 
 #Cold ul.item{
 	border-left:solid 10px #246BB2;
-	padding-left:10px;
-	padding-top:10px;
+	padding-left:10px;	
 }
 
 #Cold ul.item li{
 	margin-top:10px;
 }
 
+#Cold ul.price li{
+	padding-top: 10px;
+	padding-bottom: 28px;
+}
+
 /*---RAW---*/
 #Raw{
-	padding-top: 8em;
+	padding-top: 9em;
 }
 
 #Raw ul.price li{
@@ -587,14 +576,14 @@ ul.price li{
 }
 
 /*---DUMPLINGS---*/
-#Dumplings{
-	padding-top: 20em;
+#Dumplings h2{
+	padding-top: 14em;
 }
 
 #Dumplings ul.price li{
-		margin-top:10px;
+	padding-top: 10px;
+	padding-bottom: 28px;
 }
-
 
 #Dumplings ul.item{
 	border-left:solid 10px #007A7A;
@@ -608,12 +597,12 @@ ul.price li{
 
 /*---COOKED---*/
 #Cooked{
-	padding-top: 8em;
+	padding-top: 12.5em;
 	padding-bottom: 30em;
 }
 
 #Cooked ul.price li{
-	margin-top:28px;
+	margin-top:27px;
 }
 
 #Cooked ul.item{
@@ -624,6 +613,19 @@ ul.price li{
 
 #Cooked ul.item li{
 	margin-top:10px;
+}
+
+/*-------------------------------------------------
+PAGE MENU --- SECTION BOUTON RESERVATION
+-------------------------------------------------*/
+
+.sectionimg{
+	float:right;
+	padding-right: 10%;
+}
+
+.sectionimg li{
+	padding-bottom: 1.5em;
 }
 
 /*-------------------------------------------------

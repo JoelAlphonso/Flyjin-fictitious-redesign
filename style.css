@@ -293,9 +293,15 @@ SECTION --- FEATURED DRINKS
 div.featSec{
 	color:#434343;
 	font-family: Georgia;
-	font-size: 0;
+	font-size: 0px;
+
+}
+
+div.featSec > div{
+
 	letter-spacing: 0.5px;
 }
+
 
 div.featDrinks{
 	margin: 0 2% 0 0;
@@ -323,13 +329,54 @@ div.featDrinks:last-of-type{
 }
 
 /*-------------------------------------------------
-SECTION --- BREATHALIZER
+SECTION --- BREATH TEST
 -------------------------------------------------*/
 
-.page-2{
-	background-color:blue;
-	width:100%;
-	height: 100%;
+#BreathTest{
+	background-color:white;
+	display:inline-block;
+	width:60%;
+	height:25%;
+}
+
+#BreathTest h1{
+	margin-top: 1em;
+	text-transform: capitalize;
+	font-family: "Transat-Black", sans-serif;
+	color: #434343;
+	font-size: 1.88rem;
+	padding-left: 20%;
+}
+
+#BreathTest h2{
+	font-size:1rem;
+}
+
+#BreathTest form{
+	width:50%;
+	display:inline-block;
+}
+
+#BreathTest article{
+	display:inline-block;
+}
+
+#BreathTest .txtBox{
+	width:300px;
+	margin-top:10px;
+	background-color:#eaeaea;
+}
+
+#BreathTest form{
+	margin-left:30px;
+}
+
+#menuProposition{
+	display:inline-block;
+	width:35%;
+	height:214px;
+	float:right;
+	margin-left:20px;
 }
 
 #bouton{
@@ -342,89 +389,14 @@ SECTION --- BREATHALIZER
 	margin-left:250px;
 }
 
-#Breathalyzer{
-	background-color:white;
-	width:100%;
-}
-
-#Breathalyzer h1{
-	padding-left: 25%;
-	font-size:1rem;
-}
-
-#Breathalyzer h2{
-	font-size:1rem;
-}
-
-#Breathalyzer h1{
-	color:#1c1c1c;
-	font-family:Arial,sans-serif;
-	font-size:1.5rem;
-	margin-top: 1em;
-}
-
-#Breathalyzer form{
-	width:50%;
-	display:inline-block;
-}
-
-#Breathalyzer article{
-	width:40%;
-	display:inline-block;
-}
-
-.page-1 .bgGris{
-	padding-top:25px;
-	padding-bottom:25px;
-}
-.page-1 .bgGris > section{
-	height:300px;
-	width:80%;
-}
-
 section.toBottom{
 	position: relative;
 	bottom: 0;
 }
 
-#menuProposition{
-	display:inline-block;
-	width:35%;
-	height:214px;
-	float:left;
-	margin-left:20px;
-}
-#Breathalyzer{
-	display:inline-block;
-	width:60%;
-	height:214px;
-	float:left;
-}
-
-#Breathalyzer .txtBox{
-	width:300px;
-	margin-top:10px;
-	background-color:#eaeaea;
-}
-
-#Breathalyzer h1{
-	text-transform: capitalize;
-	font-family: "Transat-Black", sans-serif;
-	color: #434343;
-	font-size: 1.88rem;
-	padding-left: 20%;
-}
-
-#Breathalyzer form{
-	margin-left:30px;
-}
-
-#menuProposition{
-
-	float:right;
-
-
-}
+/*-------------------------------------------------
+SECTION --- SLIDER
+-------------------------------------------------*/
 
 #slide-1{
 	background: url("img/fille.jpg") center center no-repeat;

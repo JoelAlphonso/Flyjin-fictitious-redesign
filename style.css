@@ -1,7 +1,6 @@
 /*-------------------------------------------------
 FONTS
 -------------------------------------------------*/
-
 @font-face {
   font-family: 'Bonbon';
   src: url('fonts/bonbon_light-webfont.eot'); /* IE9 Compat Modes */
@@ -95,7 +94,6 @@ h1{
 	font-family: "Transat-Black", sans-serif;
 	color: #434343;
 	font-size: 1.88rem;
-
 }
 
 h2{
@@ -104,6 +102,10 @@ h2{
 
 h3{
 	color:#434343;
+}
+
+a{
+	text-decoration: none;
 }
 
 body{
@@ -269,10 +271,6 @@ section.hero video{
 	text-transform: uppercase;
 }
 
-a{
-	text-decoration: none;
-}
-
 #menuProposition a{
 	color:#ECCC83;
 }
@@ -284,7 +282,6 @@ a{
 	padding-bottom:40px;
 	text-align:center;
 }
-
 
 /*-------------------------------------------------
 SECTION --- FEATURED DRINKS
@@ -298,10 +295,8 @@ div.featSec{
 }
 
 div.featSec > div{
-
 	letter-spacing: 0.5px;
 }
-
 
 div.featDrinks{
 	margin: 0 2% 0 0;
@@ -427,7 +422,6 @@ SECTION --- SLIDER
 SECTION --- EVENTS
 -------------------------------------------------*/
 
-
 .page-3{
 	height:100%;
 }
@@ -447,7 +441,6 @@ SECTION --- EVENTS
 	text-align: center;
 	max-width:40%;
 	margin-left:40%;
-
 }
 
 .page-3 .bgGris{
@@ -478,23 +471,31 @@ SECTION --- EVENTS
 }
 
 /*-------------------------------------------------
-PAGE MENU
+PAGE MENU --- SECTION FOOD MENU
 -------------------------------------------------*/
+
+.food section{
+	padding-left: 5%;
+	background-color: white;
+}
+
+.food section h1{
+	padding-left: 5%
+}
+
+.foodTxt div{
+	width:50%;
+}
 
 .item{
 	font-size:1rem;
+	width:60%;
+	float:left;
 }
 
 .item span{
 	font-size:0.8rem;
 	font-style:italic;
-}
-.price li{
-	font-size:1rem;
-	font-weight:bold;
-}
-.foodTxt div{
-	width:50%;
 }
 
 .price{
@@ -504,14 +505,9 @@ PAGE MENU
 	float:left;
 }
 
-.item{
-	width:60%;
-	float:left;
-}
-
-.sectionimg{
-	float:right;
-	width:50%;
+.price li{
+	font-size:1rem;
+	font-weight:bold;
 }
 
 ul.price{
@@ -522,24 +518,10 @@ ul.price li{
 	margin-top:10px;
 }
 
+/*---ENTREE---*/
+
 #Entree ul.price{
 	padding-top:10px;
-}
-
-#Dumplings ul.price{
-	padding-top:10px;
-}
-
-#Cold ul.price li{
-	margin-top:28px;
-}
-
-#Raw ul.price li{
-	margin-top:28px;
-}
-
-#Cooked ul.price li{
-	margin-top:28px;
 }
 
 #Entree ul.item{
@@ -552,6 +534,15 @@ ul.price li{
 	margin-top:10px;
 }
 
+/*---COLD---*/
+#Cold{
+	padding-top: 8em;
+}
+
+#Cold ul.price li{
+	margin-top:28px;
+}
+
 #Cold ul.item{
 	border-left:solid 10px #246BB2;
 	padding-left:10px;
@@ -560,6 +551,15 @@ ul.price li{
 
 #Cold ul.item li{
 	margin-top:10px;
+}
+
+/*---RAW---*/
+#Raw{
+	padding-top: 8em;
+}
+
+#Raw ul.price li{
+	margin-top:28px;
 }
 
 #Raw ul.item{
@@ -572,6 +572,16 @@ ul.price li{
 	margin-top:10px;
 }
 
+/*---DUMPLINGS---*/
+#Dumplings{
+	padding-top: 20em;
+}
+
+#Dumplings ul.price li{
+		margin-top:10px;
+}
+
+
 #Dumplings ul.item{
 	border-left:solid 10px #007A7A;
 	padding-left:10px;
@@ -580,6 +590,15 @@ ul.price li{
 
 #Dumplings ul.item li{
 	margin-top:10px;
+}
+
+/*---COOKED---*/
+#Cooked{
+	padding-top: 8em;
+}
+
+#Cooked ul.price li{
+	margin-top:28px;
 }
 
 #Cooked ul.item{
@@ -592,11 +611,15 @@ ul.price li{
 	margin-top:10px;
 }
 
+/*-------------------------------------------------
+PAGE MENU --- SECTION BOUTON RESERVATION
+-------------------------------------------------*/
+
+/*
 #mtl{
 	text-align:center;
 	width:100%;
 	height:150px;
-	background-color:#8F0000;
 	padding-top:50px;
 	padding-bottom:50px;
 }
@@ -614,6 +637,7 @@ ul.price li{
 	background-color: #303030;
 	color:#ECCC83;
 }
+*/
 
 /*-------------------------------------------------
 SECTION --- FOOTER
@@ -669,7 +693,6 @@ footer ul li{
 }
 
 #formContact input{
-
 	padding-bottom: 1.5em;
 	margin-bottom: 1em;
 	background-color: #505050;
@@ -698,7 +721,6 @@ footer ul li{
 }
 
 #boutSend{
-
 	display: inline-block;
 	font-size: 1.25em;
 	letter-spacing: 2px;
@@ -730,7 +752,6 @@ footer ul li{
 .bottom ul{
 	padding-top: 2em;
 	text-align: center;
-
 }
 
 #copyrights {
@@ -742,4 +763,3 @@ footer ul li{
 	text-transform: lowercase;
 	font-size: 0.8em;
 }
-

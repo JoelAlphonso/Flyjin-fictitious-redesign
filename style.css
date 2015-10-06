@@ -7,8 +7,8 @@ FONTS
   src: url('fonts/bonbon_light-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('fonts/bonbon_light-webfont.woff2') format('woff2'), /* Super Modern Browsers */
        url('fonts/bonbon_light-webfont.woff') format('woff'), /* Pretty Modern Browsers */
-       url('fonts/bonbon_light-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('fonts/bonbon_light-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+       url('fonts/bonbon_light-webfont.ttf')  format('opentype'), /* Safari, Android, iOS */
+       url('fonts/bonbon_light-webfont.svg') format('svg'); /* Legacy iOS */
 }
 @font-face {
   font-family: 'Estandar-Bold';
@@ -91,11 +91,10 @@ DEFAULT STYLE
 -------------------------------------------------*/
 
 h1{
-	font-family: Georgia;
-	font-weight: lighter;
-	letter-spacing: 3px;
+	font-family: "Transat-Black", sans-serif;
 	color: #434343;
-	font-size: 2rem;
+	font-size: 1.88rem;
+	font-weight: initial;
 }
 
 h2{
@@ -103,6 +102,7 @@ h2{
 }
 
 h3{
+	font-family: "Merlo-RoundSerifRegular", serif;
 	color:#434343;
 }
 
@@ -127,7 +127,9 @@ div.wrapper{
 }
 
 div.flex-wrapper{
-	flex: 0 1 1000px;
+	-webkit-flex: 0 1 1000px;
+	    -ms-flex: 0 1 1000px;
+	        flex: 0 1 1000px;
 }
 
 div.wrapper h1{
@@ -189,6 +191,8 @@ header{
 	position: relative;
     width: 100%;
     height: 6em;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     opacity: 0.9;
     z-index: 999;
@@ -203,9 +207,13 @@ header.fixed{
 header ul{
 	list-style-type: none;
 	text-align:center;
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
 	width: 100%;
-	justify-content: flex-end;
+	-webkit-justify-content: flex-end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
 	display: flex;
 }
 
@@ -225,24 +233,38 @@ header div img{
 }
 
 header nav{ 
+	display:-webkit-flex; 
+	display:-ms-flexbox; 
 	display:flex;
-	flex: 1 1 auto;
+	-webkit-flex: 1 1 auto;
+	    -ms-flex: 1 1 auto;
+	        flex: 1 1 auto;
 	background-color:#eaeaea;
 }
 
 header>div:first-of-type, header>div:last-of-type{
-	flex: 1 1;
+	-webkit-flex: 1 1;
+	    -ms-flex: 1 1;
+	        flex: 1 1;
 }
 
 header>div.flex-wrapper{
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
-    align-items: stretch;
+    -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
 }
 
 header>div.flex-wrapper>div,
 header>div.flex-wrapper>nav{
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
 
 /*-------------------------------------------------
@@ -268,8 +290,6 @@ section.hero video{
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 
@@ -304,8 +324,7 @@ SECTION --- FEATURED DRINKS
 -------------------------------------------------*/
 
 div.featSec{
-	color:#434343;
-	font-family: Georgia;
+
 	font-size: 0px;
 
 }
@@ -410,24 +429,30 @@ SECTION --- SLIDER
 	background-size: cover;
 }
 
-#slide-1 h1 {
+.slide h1 {
 	text-align: center;
 	color:rgba(255,255,255,0.9);
-	font-weight:lighter;
-	font-family:Georgia;
-	letter-spacing: 8px;
-	text-transform: lowercase;
-	font-size: 2.25em;
+	font-family: "Bonbon";
+	font-size: 4.50rem;
+	word-spacing: 0.5rem;
+	-webkit-font-variant-ligatures: common-ligatures;
+	        font-variant-ligatures: common-ligatures;
+	   -moz-font-feature-settings: "liga=1 clig=1";
+  		-ms-font-feature-settings: "liga", "clig";
+  	-webkit-font-feature-settings: "liga", "clig";
+  			font-feature-settings: "liga", "clig";
 }
 
-#slide-1 h2 {
+.slide h2 {
 	text-align: center;
-	color:rgba(255,255,255,0.9);
-	font-weight:lighter;
-	font-family:Georgia;
-	letter-spacing: 5px;
-	text-transform: lowercase;
-	font-size: 1em;
+	color: #fff;
+	font-family: "Estandar-Light";
+	font-weight: 100;
+	font-size: 2.25rem;
+}
+
+.slide h2 span{
+	font-family: "Estandar-Bold";
 }
 
 /*-------------------------------------------------
@@ -514,7 +539,7 @@ PAGE MENU --- SECTION FOOD MENU
 .price{
 	width: 10%;
 	padding-left: 3em;
-	font-family:Georgia;
+	
 	font-size: 1em;
 	float:right;
 	text-align: right;
@@ -644,7 +669,7 @@ PAGE MENU --- SECTION BOUTON RESERVATION
 #mtl p{
 	color:white;
 	font-size:1rem;
-	font-family:Georgia;
+	
 	margin-bottom:40px;
 	letter-spacing: 1px;
 }
@@ -778,7 +803,7 @@ footer ul li{
 	padding-top: 3em;
 	text-align: center;
 	font-weight:lighter;
-	font-family:Georgia;
+	
 	letter-spacing: 3.5px;
 	text-transform: lowercase;
 	font-size: 0.8em;

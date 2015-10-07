@@ -507,9 +507,17 @@ section.toBottom{
 SECTION --- SLIDER
 -------------------------------------------------*/
 
-#slide-1{
+#slide-1 .content-window{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+#slide-1 .content-window > div{
 	background: url("img/fille.jpg") center center no-repeat;
 	background-size: cover;
+    height: 100%;
+    width: 100%;
 }
 
 .slide h1 {

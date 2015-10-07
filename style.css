@@ -858,7 +858,8 @@ footer ul li{
 }
 
 #formContact ::-webkit-input-placeholder {
-	padding: 10px 10px 10px 30px;
+	padding-left: 10px;
+	margin-bottom:30px;
 }
 
 .mid{

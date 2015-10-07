@@ -371,6 +371,7 @@ div.featSec > div.featDrinks{
 div.upperDiv p{
 	margin-top: 20px;
 	font-size: 1.125rem;
+	text-align: justify;
 }
 
 div.upperDiv p > span{

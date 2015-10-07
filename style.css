@@ -827,36 +827,44 @@ footer ul li{
 	padding-right: 15%;
 }
 
-#formContact input{
+#formContact input, textarea{
+	padding-top: 20px;
+	padding-left: 25px;
 	padding-bottom: 1.5em;
-	margin-bottom: 1em;
+	margin-bottom: 0.75em;
 	background-color: #505050;
 	border:none;
+	color: white;
+	font-size: 0.75em;
+	resize:none;
 }
 
 #nom{
-	height:2em;
-	width:19.75em;
+	height:1em;
+	width:19.3em;
 }
 
 #courriel{
-	height:2em;
-	width:19.75em;
+	height:1em;
+	width:19.3em;
 }
 
 #sujet{
-	height:2em;
+	height:1em;
 	width:40em;
 }
 
 #messageBox{
-	height:8em;
 	width:40em;
-	padding-bottom: 2em;
+}
+
+#formContact ::-webkit-input-placeholder {
+	padding-left: 10px;
+	margin-bottom:30px;
 }
 
 #boutSend{
-	width:14.25em;
+	width:16em;
 	height:1em;
 	display: inline-block;
 	font-size: 1.25em;
@@ -864,11 +872,6 @@ footer ul li{
 	padding-top: 1.25em;
 	padding-left: 35%;
 	background-color: #505050;
-}
-
-#formContact ::-webkit-input-placeholder {
-	padding-left: 10px;
-	margin-bottom:30px;
 }
 
 .mid{

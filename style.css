@@ -29,6 +29,15 @@ FONTS
        url('fonts/Estandar-Light-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 @font-face {
+  font-family: 'Estandar-ExtraLight';
+  src: url('fonts/Estandar-Extra_Light-webfont.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Estandar-Extra_Light-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Estandar-Extra_Light-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/Estandar-Extra_Light-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/Estandar-Extra_Light-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/Estandar-Extra_Light-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
   font-family: 'Estandar-Regular';
   src: url('fonts/Estandar-Regular-webfont.eot'); /* IE9 Compat Modes */
   src: url('fonts/Estandar-Regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -121,7 +130,7 @@ body.overHide{
 	overflow: hidden!important;
 }
 
-div.wrapper{
+.wrapper{
 	max-width:1000px;
 	margin:0 auto;
 }
@@ -130,11 +139,13 @@ div.flex-wrapper{
 	-webkit-flex: 0 1 1000px;
 	    -ms-flex: 0 1 1000px;
 	        flex: 0 1 1000px;
+	margin: 0 auto;
 }
 
-div.wrapper h1{
-	padding-top:5em;
-	padding-bottom: 1em; 
+div.wrapper h1,
+div.flex-wrapper h1{
+	padding-top:150px;
+	padding-bottom: 50px; 
 }
 
 ul{
@@ -175,6 +186,23 @@ ul{
 	transform: translateY(-50%);*/
 }
 
+.vFlex{
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: space-between;
+}
+
+.flex-row{
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-col{
+	display: flex;
+	flex-direction: column;
+}
+
 /*-------------------------------------------------
 MENU
 -------------------------------------------------*/
@@ -196,6 +224,8 @@ header{
     display: flex;
     opacity: 0.9;
     z-index: 999;
+    -webkit-box-shadow: 0px 5px 1px rgba(0,0,0,0.4);
+    box-shadow: 0px 5px 1px rgba(0,0,0,0.4);
 }
 
 header.fixed{
@@ -242,7 +272,8 @@ header nav{
 	background-color:#eaeaea;
 }
 
-header>div:first-of-type, header>div:last-of-type{
+header>div:first-of-type,
+header>div:last-of-type{
 	-webkit-flex: 1 1;
 	    -ms-flex: 1 1;
 	        flex: 1 1;
@@ -324,38 +355,89 @@ SECTION --- FEATURED DRINKS
 -------------------------------------------------*/
 
 div.featSec{
-
-	font-size: 0px;
-
+	display: flex;
+    flex-direction: column;
+	flex: 1 1 auto;
 }
 
-div.featSec > div{
-	letter-spacing: 0.5px;
+div.featSec > div.featDrinks{
+	flex: 0 0 32%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding-bottom: 30px;
 }
 
-div.featDrinks{
-	margin: 0 2% 0 0;
-	vertical-align: top;
-	display:inline-block;
-	width: 32%;
-	text-align: center justify;
-	font-size: initial;
+div.upperDiv p{
+	margin-top: 20px;
+	font-size: 1.125rem;
 }
 
-div.featDrinks h3{
-	margin: 10% 0 0 0;
-	letter-spacing: 2px;
-	font-weight: normal;
+div.upperDiv p > span{
 	text-transform: capitalize;
-	text-align: center;
+	font-family: "Merlo-RoundSerifRegular";
 }
 
-div.featDrinks>img{
+div.featDrinks > div{
+	max-height: 275px;
+    flex: 1 1 0;
+    display: flex;
+}
+
+div.featSec div.flex-row:first-of-type{
+	flex: 1 1 0;
+    max-height: 275px;
+}
+
+div.featSec div.flex-row{
+	justify-content: space-between;
+}
+
+div.featSec div.flex-row > div.flex-col{
+	flex: 0 0 32%;
+}
+
+div.featSec div.flex-row > div.flex-col > div{
+	flex: 1 1 0;
+}
+
+div.featSec div.flex-row > div.flex-col:nth-child(1)>div{
+	background: url("img/feat-img1.png") center bottom no-repeat;
+	background-size: cover;
+}
+
+div.featSec div.flex-row > div.flex-col:nth-child(2)>div{
+	background: url("img/feat-img2.png") center bottom no-repeat;
+	background-size: cover;
+}
+
+div.featSec div.flex-row > div.flex-col:nth-child(3)>div{
+	background: url("img/feat-img3.png") center bottom no-repeat;
+	background-size: cover;
+}
+
+div.featDrinks > div > img{
 	width: 100%;
+	max-height: 100%;
 }
 
-div.featDrinks:last-of-type{
+section.page-featured div.upperDiv{
+	flex: 1 1 auto;
+    display: flex;
+}
+
+section.page-featured div.upperDiv .flex-wrapper{
+	display: flex;
+	flex-direction: column;
+}
+
+section.page-featured div.upperDiv h1{
 	margin: 0;
+    flex: 0 0;
+}
+
+section.page-featured div.bottomDiv{
+	flex: 0 0 300px;
 }
 
 /*-------------------------------------------------
@@ -431,10 +513,12 @@ SECTION --- SLIDER
 
 .slide h1 {
 	text-align: center;
-	color:rgba(255,255,255,0.9);
+	color: #fff;
 	font-family: "Bonbon";
 	font-size: 4.50rem;
 	word-spacing: 0.5rem;
+	margin: 0;
+	line-height: 3rem;
 	-webkit-font-variant-ligatures: common-ligatures;
 	        font-variant-ligatures: common-ligatures;
 	   -moz-font-feature-settings: "liga=1 clig=1";
@@ -446,7 +530,7 @@ SECTION --- SLIDER
 .slide h2 {
 	text-align: center;
 	color: #fff;
-	font-family: "Estandar-Light";
+	font-family: "Estandar-ExtraLight";
 	font-weight: 100;
 	font-size: 2.25rem;
 }
@@ -517,7 +601,7 @@ PAGE MENU --- SECTION FOOD MENU
 }
 
 .food section h1{
-	padding-left: 5%
+	padding-left: 5%;
 }
 
 .foodTxt{

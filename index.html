@@ -13,6 +13,7 @@
 </head>
 
 <body class="overHide">
+	<!-- ______ #FULLPAGE START _____ -->
 	<section class="content" id="fullpage">
 		<section class="hero section">
 			<div class="content-window" >
@@ -25,10 +26,12 @@
 				</div>
 			</div>
 		</section>
-
-		<section class="page-1 bgBlanc section" >
+		
+		<!-- ______ PAGE FEATURED START _____ -->
+		<section class="page-1 bgBlanc section page-featured">
+			
+			<!-- ______ MENU START _____ -->
 			<div class="headerContainer">
-				
 					<header class="header">
 						<div class="bgRouge"></div>
 						<div class="flex-wrapper">
@@ -45,56 +48,72 @@
 						</div>
 						<div class="bgGris"></div>
 					</header>
-				
-			</div>
+			</div><!-- ______ MENU END _____ -->
+			
+			<div class="vFlex">
+				<!-- ______ SECTION DU HAUT START _____ -->
+				<div class="bgBlanc upperDiv">
+					<div class="flex-wrapper">
+						<h1>FEATURED DRINKS</h1>
+						<div class="featSec">
 
-			<div class="bgBlanc">
-				<div class="wrapper">
-					<h1>FEATURED DRINKS</h1>
-					<div class="featSec">
-						<div class='featDrinks'>
-							<img src='img/feat-img1.png' alt='Be Cool'>
-							<h3>CAMPFIRE MARGARITA</h3> 
-						</div>
-						 <div class='featDrinks'>
-							<img src='img/feat-img2.png' alt='Be Hot'>
-							<h3>FLYJIN TONIC</h3>
-						</div>
-						 <div class='featDrinks'>
-							<img src='img/feat-img3.png' alt='Be Fresh'>
-							<h3>SOUS-VITE</h3>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="bgGris">
-				<section class="toBottom">
-					<div id='BreathTest'>
-						<h1>BREATH TEST</h1>
-						<form id='form1'>
-							<div>
-								<input type="radio" name="sex" value="male" id='male' checked>Male
-								<input type="radio" name="sex" value="female" id='female'>Female
+							<div class="flex-row">
+								<div class="flex-col">
+									<div></div>
+								</div>
+								<div class="flex-col">
+									<div></div>
+								</div>
+								<div class="flex-col">
+									<div></div>
+								</div>
 							</div>
-							<input placeholder="Weight(kg)" min="0" step="1" type="number" name="weight" class='txtBox' id='weight'>
-							<br>
-							<input placeholder="Number of Drinks" min="0" step="1" type="number" name="drinks"  class='txtBox' id='drinks'>
-							<br>
-						</form>
-						<article>
-							<h2>Percent of Alcohol in your blood:</h2>
-							<h2 id='ready'>Results</h2>
-							<h2 id='bouton'>Submit</h2>
-						</article>
+							<div class="flex-row">
+								<div class="flex-col">
+									<p><span>CAMPFIRE MARGARITA : </span>
+									asd fasdfg sdfgh fsdghdfgh sdfgasdfa sdfsadfas dfasdfasd fasdfa sdfasdf</p>
+								</div>
+								<div class="flex-col">
+									<p><span>FLYJIN TONIC</span></p>
+								</div>
+								<div class="flex-col">
+									<p><span>SOUS-VITE</span></p>
+								</div>
+							</div>
+
+						</div>
 					</div>
-					<div id='menuProposition'>
-						<ul>
-							<li><a href='menu.html'>SEE THE FOOD MENU</a></li><br>
-							<li><a href='menu.html'>SEE THE DRINKS MENU</a></li>
-						</ul>
-					</div>
-				</section>
+				</div><!-- ______ SECTION DU HAUT END _____ -->
+				
+				<!-- ______ SECTION DU BAS START _____ -->
+				<div class="bgGris bottomDiv">
+					<section class="wrapper">
+						<div id='BreathTest'>
+							<h1>BREATH TEST</h1>
+							<form id='form1'>
+								<div>
+									<input type="radio" name="sex" value="male" id='male' checked>Male
+									<input type="radio" name="sex" value="female" id='female'>Female
+								</div>
+								<input placeholder="Weight(kg)" min="0" step="1" type="number" name="weight" class='txtBox' id='weight'>
+								<br>
+								<input placeholder="Number of Drinks" min="0" step="1" type="number" name="drinks"  class='txtBox' id='drinks'>
+								<br>
+							</form>
+							<article>
+								<h2>Percent of Alcohol in your blood:</h2>
+								<h2 id='ready'>Results</h2>
+								<h2 id='bouton'>Submit</h2>
+							</article>
+						</div>
+						<div id='menuProposition'>
+							<ul>
+								<li><a href='menu.html'>SEE THE FOOD MENU</a></li><br>
+								<li><a href='menu.html'>SEE THE DRINKS MENU</a></li>
+							</ul>
+						</div>
+					</section>
+				</div><!-- ______ SECTION DU BAS END _____ -->
 			</div>
 		</section>
 
@@ -152,7 +171,10 @@
 								<option value="wubwub">Dubstep</option>
 								<option value="classic">Classic</option>
 								<option value="reggae">Reggae</option>
-							</select></div><span>OR</span><div>
+							</select>
+						</div>
+							<span>OR</span>
+						<div>
 							<select name="favDJ">
 								<option value="Music">Favorite DJ</option>
 								<option value="dj1">DJ1</option>
@@ -212,6 +234,6 @@
 				</div>
 			</div>
 		</footer>
-	</section>
+	</section><!-- ______ #FULLPAGE END _____ -->
 </body>
 </html>

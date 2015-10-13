@@ -135,7 +135,7 @@ body.overHide{
 	margin:0 auto;
 }
 
-div.flex-wrapper{
+.flex-wrapper{
 	-webkit-flex: 0 1 1000px;
 	    -ms-flex: 0 1 1000px;
 	        flex: 0 1 1000px;
@@ -143,15 +143,24 @@ div.flex-wrapper{
 }
 
 div.wrapper h1,
-div.flex-wrapper h1{
-	padding-top:150px;
-	padding-bottom: 50px; 
+.flex-wrapper h1{
+	margin-top: 40px;
+	margin-bottom: 25px; 
 }
 
 ul{
 	margin:0;
 	padding:0;
 	list-style-type: none;
+}
+
+a.call-to-action{
+	font-family: "Merlo-RoundSerifRegular", serif;
+	font-size: 1.125rem;
+	text-transform: uppercase;
+	color: #ECCC83;
+	background: #8C1C1A;
+	padding: 1rem 0;
 }
 
 .bgRouge{
@@ -425,6 +434,7 @@ div.featDrinks > div > img{
 section.page-featured div.upperDiv{
 	flex: 1 1 auto;
     display: flex;
+    padding-top: 96px;
 }
 
 section.page-featured div.upperDiv .flex-wrapper{
@@ -433,7 +443,6 @@ section.page-featured div.upperDiv .flex-wrapper{
 }
 
 section.page-featured div.upperDiv h1{
-	margin: 0;
     flex: 0 0;
 }
 
@@ -552,52 +561,75 @@ SECTION --- SLIDER
 SECTION --- EVENTS
 -------------------------------------------------*/
 
-.page-3{
-	height:100%;
+.page-3 .full-width-flex>div{
+	flex: 1 1 auto;
+	height: 100vh;
 }
 
-.page-3 .bgBlanc{
-	width:60%;
-	float:left;
-	display:inline-block;
+.page-3 .leftContent{
+	padding-top: 96px;
+	flex: 0 1 70%;
 }
 
-.page-3 .bgBlanc h1{
-	margin-left:40%;
-	padding-top:3em;
+.page-3 .leftContent img{
+	height: 70vh;
 }
 
-.page-3 .bgBlanc img{
+.page-3 .rightContent{
+	padding-top: 96px;
+	flex: 0 1 30%;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.page-3 .rightContent h1{
+	margin: 0;
+}
+
+.page-3 .widget{
 	text-align: center;
-	max-width:40%;
-	margin-left:40%;
-}
-
-.page-3 .bgGris{
-	width:40%;
-	float:left;
-	display:inline-block;
-	height:1080px;
-}
-
-.page-3 .bgGris h1{
-	padding-top: 1em;
-}
-
-#reservation, #Eventbystyle{
-	text-align: center;
- 	width:50%;
+ 	box-sizing: border-box;
 	background-color:#eee;
-	margin-left:100px;
-	margin-top:50px;
-	height:400px;
+	width: 90%;
+	margin: 5%;
+	height: 35vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 }
 
-#reservation form div,  #Eventbystyle form div{
+.page-3 .widget h1{
+	padding-top: 20px;
+	flex: 0 1 50px;
+}
+
+.page-3 form{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.page-3 form div{
 	text-align: center;
-	margin-top:50px;
-	background-color:#eee;
-	height:50px;
+	margin: 15px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.page-3 form div img{
+	margin-right: 10px;
+}
+
+.page-3 form div input, .page-3 form div select{
+	border: none;
+	flex: 1 1 0;
+	height: 2rem;
+	padding-left: 5px;
+}
+
+.page-3 .call-to-action{
+	width: 90%;
+	margin: 0 auto;
 }
 
 /*-------------------------------------------------
@@ -775,6 +807,16 @@ PAGE MENU --- SECTION BOUTON RESERVATION
 }
 
 /*-------------------------------------------------
+WIDGETS
+-------------------------------------------------*/
+
+.widget h1{
+	font-family: "Estandar-Light";
+	font-size: 1.5rem;
+}
+
+
+/*-------------------------------------------------
 SECTION --- FOOTER
 -------------------------------------------------*/
 
@@ -783,9 +825,7 @@ footer {
 }
 
 footer .contactFooter{
-	display: inline-block;
-	padding-left: 20%;
-	position: relative;
+	flex: 3 3 0em;
 }
 
 footer .contactFooter p{
@@ -812,19 +852,17 @@ footer ul{
 }
 footer ul li{
 	display:inline-block;
-	margin-left: 30px;
+	margin: 0 15px;
 }
 
 .map{
 	background-color:lightblue;
 	width:100%;
-	height:15em;
-	padding-top: 5em; /* --> pour ne pas être sous le menu fixed d'index.html */
+	flex: 4 1 auto;
 }
 
 #formContact{
-	float:right;
-	padding-right: 15%;
+	flex: 1 1 20em;
 }
 
 #formContact input, textarea{
@@ -858,11 +896,6 @@ footer ul li{
 	width:40em;
 }
 
-#formContact ::-webkit-input-placeholder {
-	padding-left: 10px;
-	margin-bottom:30px;
-}
-
 #boutSend{
 	width:16em;
 	height:1em;
@@ -874,34 +907,58 @@ footer ul li{
 	background-color: #505050;
 }
 
-.mid{
-	padding-top: 3em;
-	padding-bottom: 10em;
-	line-height: 0.5px;
-	background-color: #555555;
+footer .flex-col{
+	height: 100vh;
+}
+
+
+footer .mid{
+	line-height: initial;
+	background-color: #434343;
 	letter-spacing: 1px;
 	font-size: 1em;
+	flex: 1 1 auto;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.mid > div.wrapper{
+	font-size: 0;
+	flex: 1 1 1000px;
+}
+
+.mid > div.wrapper > *{
+	font-size: initial;
 }
 
 .bottom{
-	bottom: 0;
-	position: absolute;
-	width:100%;
-	height: 200px;
-	background-color:#333333;
+	flex: 0 0 125px;
+	background-color:#1c1c1c;
 }
 
 .bottom ul{
-	padding-top: 2em;
 	text-align: center;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+	height: 34px;
+}
+
+.bottom ul li a{
+	display: inline-block;
+	height: 34px;
+}
+
+.bottom ul li img{
+	width: 34px;
+	height: 34px;
 }
 
 #copyrights {
-	padding-top: 3em;
 	text-align: center;
-	font-weight:lighter;
-	
 	letter-spacing: 3.5px;
 	text-transform: lowercase;
-	font-size: 0.8em;
+	font-size: 0.8rem;
 }
